@@ -1,0 +1,79 @@
+section{
+    width: auto;
+    height:auto;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+    padding: 3px;
+    background-color: wheat;
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 4px solid white;
+    box-shadow: 2px 4px rgb(100, 200, 0);
+}
+button{
+    background-color: red;
+    color: yellow;
+    width: 5rem;
+    margin-left: 20px;
+}
+
+form{
+    /* padding-top: 2.5rem;   */
+    padding-left: 2rem;
+    width: 60%;
+    height:auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+input{
+    padding-top: -2.5rem;
+    background-color: violet;
+    margin-left: 200px;
+    width: 50%;
+    border: 2px solid black;
+}
+input:hover{
+    background-color: yellow;
+}
+body{
+    background-color: aliceblue;
+}
+.list-item {
+    display: flex;
+    /* width: 300px; */
+    width: 60%;
+    height: auto;
+    justify-content: space-between;
+    padding: 16px 0px;
+    text-align: center;
+    background-color: rgb(225, 225, 0);
+    margin: auto;
+    margin-top: 50px;
+}
+
+.list-item-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    height: 100%;
+    width: auto;
+}
+
+.list-item-detail input {
+    margin-right: 16px;
+    display: flex;
+
+}
+
+.list-item-detail input:checked ~ span {
+    text-decoration: line-through;
+    color: blue;
+}
+.todo{
+    background-color: rgb(92, 65, 65);
+}
